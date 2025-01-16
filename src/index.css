@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tick-icon {
+  transition: transform 0.3s ease;
+}
+
+.tick-icon.active {
+  transform: scale(1.2) rotate(20deg);
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  background-color: #ff7c47;
+}
